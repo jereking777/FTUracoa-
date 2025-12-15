@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Torneo Fin de Semana — Inscripciones</title>
+  <meta name="description" content="Inscripciones al torneo de fin de semana en Uracoa, Monagas, Venezuela. Contacto por WhatsApp y Facebook. Pago: 1000 Bs." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1216;--card:#161b22;--text:#e6edf3;--muted:#9aa5b1;
+      --primary:#22c55e;--accent:#3b82f6;--yellow:#f59e0b;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{max-width:920px;margin:0 auto;padding:32px 20px 12px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--primary));display:grid;place-items:center;color:#0b0f14;font-weight:800}
+    h1{font-size:1.6rem;margin:0}
+    .subtitle{color:var(--muted);font-size:0.95rem}
+    .container{max-width:920px;margin:0 auto;padding:20px}
+    .card{background:var(--card);border:1px solid #293242;border-radius:16px;padding:20px;margin-bottom:20px}
+    .grid{display:grid;grid-template-columns:1fr;gap:16px}
+    @media(min-width:860px){.grid{grid-template-columns:2fr 1.4fr}}
+    .price{display:flex;align-items:center;gap:10px;font-weight:700}
+    .badge{background:#0b1220;border:1px solid #2a3448;color:var(--muted);padding:6px 10px;border-radius:999px;font-size:0.85rem}
+    .steps{display:flex;flex-direction:column;gap:10px;margin:10px 0 0}
+    .step{display:flex;gap:12px}
+    .step .num{width:28px;height:28px;border-radius:999px;background:#0b1220;border:1px solid #2a3448;display:grid;place-items:center;font-weight:700;color:var(--accent)}
+    form .field{margin-bottom:12px}
+    label{display:block;margin-bottom:6px;font-weight:600}
+    input,textarea,select{width:100%;padding:10px 12px;border-radius:10px;border:1px solid #2a3448;background:#0b1220;color:var(--text)}
+    textarea{min-height:96px;resize:vertical}
+    .row{display:grid;grid-template-columns:1fr;gap:12px}
+    @media(min-width:620px){.row{grid-template-columns:1fr 1fr}}
+    .hint{color:var(--muted);font-size:0.9rem}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+    .btn{padding:10px 14px;border-radius:10px;border:1px solid #2a3448;background:#0b1220;color:var(--text);font-weight:600;cursor:pointer}
+    .btn-primary{background:var(--accent);border-color:#2563eb;color:#0b0f14}
+    .btn-secondary{background:#0b1220}
+    .btn-whatsapp{background:#25D366;border-color:#1aaa52;color:#09130b}
+    .btn-facebook{background:#1877F2;border-color:#145dbf;color:#081020}
+    footer{max-width:920px;margin:0 auto;padding:16px 20px 40px;color:var(--muted);font-size:0.9rem}
+    .note{border-left:3px solid var(--yellow);padding-left:12px}
+    iframe{border:0;width:100%;height:300px;border-radius:12px;margin-top:12px}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div class="logo">FT</div>
+    <div>
+      <h1>Torneo de fin de semana — Inscripciones</h1>
+      <div class="subtitle">
+        Organizado semanalmente en <strong>Uracoa, Monagas, Venezuela</strong>. ¡Arma tu equipo y entra al Play-off!
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="grid">
+
+    <!-- Información y pasos -->
+    <section class="card">
+      <div class="price">
+        <span>Inscripción:</span>
+        <span class="badge">1000 Bs</span>
+      </div>
+      <div class="steps">
+        <div class="step"><div class="num">1</div><div><strong>Contacta:</strong> Envíame los datos del equipo por WhatsApp o Facebook.</div></div>
+        <div class="step"><div class="num">2</div><div><strong>Paga:</strong> Completa el pago de 1000 Bs (te paso los datos por mensaje).</div></div>
+        <div class="step"><div class="num">3</div><div><strong>Confirmación:</strong> Te confirmo y los meto en el <em>Play-off</em>.</div></div>
+      </div>
+
+      <div style="margin-top:14px">
+        <strong>WhatsApp:</strong> 0412-8334167<br>
+        <strong>Facebook:</strong> Jeremi King's Villega's
+      </div>
+
+      <div class="actions">
+        <a class="btn btn-whatsapp" href="https://wa.me/584128335167" target="_blank">Escribir por WhatsApp</a>
+        <a class="btn btn-facebook" href="https://www.facebook.com/" target="_blank">Buscar en Facebook</a>
+      </div>
+
+      <!-- Mapa de Google Maps -->
+      <h3 style="margin-top:20px">Ubicación del torneo</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.123456789!2d-63.345!3d9.400!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sUracoa%2C%20Monagas%2C%20Venezuela!5e0!3m2!1ses!2sve!4v1700000000000" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Formulario -->
+    <section class="card">
+      <h2>Pre‑registro rápido</h2>
+      <p class="hint">Completa y envía por WhatsApp para agilizar tu inscripción.</p>
+      <form id="form" onsubmit="return sendWhatsApp()">
+        <div class="field"><label for="team">Nombre del equipo</label><input id="team" required></div>
+        <div class="row">
+          <div class="field"><label for="captain">Nombre del capitán</label><input id="captain" required></div>
+          <div class="field"><label for="phone">Teléfono de contacto</label><input id="phone" required></div>
+        </div>
+        <div class="field"><label for="players">Jugadores</label><textarea id="players" required></textarea></div>
+        <div class="row">
+          <div class="field">
+            <label for="category">Categoría</label>
+            <select id="category" required>
+              <option disabled selected>Selecciona una opción</option>
+              <option>Sub-12</option>
+              <option>Sub-16</option>
+              <option>Sub-20</option>
+            </select>
+          </div>
+          <div class="field
